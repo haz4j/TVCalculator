@@ -25,7 +25,7 @@ public class Calculator {
     private Calculator() {
 	calcInterface = new CalcInterface("TV calculator by Nikolay Petrusenko");
 	calcInterface.setCalculator(this);
-	calcInterface.setSize(1200, 800);
+	calcInterface.setSize(1300, 800);
 	calcInterface.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	calcInterface.setVisible(true);
     }
